@@ -1,4 +1,4 @@
-# PC Advanced Coordinates
+# Pulsar Advanced Coordinates
 
 A FiveM resource for selecting and copying Vector3 coordinates with a visual marker. Supports both clipboard copy and export functionality for other scripts.
 
@@ -21,7 +21,7 @@ A FiveM resource for selecting and copying Vector3 coordinates with a visual mar
 3. Add to your `server.cfg`:
 ```cfg
 ensure ox_lib
-ensure pc-advencedcoords
+ensure pulsar-advencedcoords
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ Use the `/coords` command to activate coordinate selection:
 Use the export function to integrate coordinate selection into your own scripts:
 
 ```lua
-exports['pc-advencedcoords']:selectCoords(function(coords)
+exports['pulsar-advencedcoords']:selectCoords(function(coords)
     -- coords is a vector3 object
     print('Selected coordinates:', coords)
     print('X:', coords.x, 'Y:', coords.y, 'Z:', coords.z)

@@ -17,7 +17,7 @@ RegisterCommand('coords', function()
 end, false)
 
 -- Export: Activate coordinate selection and return vector3 via callback
--- Usage from another script: exports['pc-advencedcoords']:selectCoords(function(coords) ... end)
+-- Usage from another script: exports['pulsar-advencedcoords']:selectCoords(function(coords) ... end)
 -- @param cb - Callback function that receives the selected vector3
 exports('selectCoords', function(cb)
     markerActive = false

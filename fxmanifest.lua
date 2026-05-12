@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Flitcher'
+author 'Pulsar'
 description 'Copy vector3 from camera position'
 version '1.0.0'
 
